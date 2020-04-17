@@ -1,6 +1,6 @@
 package edu.berkeley.aep;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class FinalTest {
 }
