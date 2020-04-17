@@ -7,6 +7,6 @@ public class FinalTest {
     @Test
     public void initialTest() {
         Final finalTest = new Final();
-        //assertEquals("test", finalTest);
+        assertEquals(finalTest, finalTest);
     }
 }
