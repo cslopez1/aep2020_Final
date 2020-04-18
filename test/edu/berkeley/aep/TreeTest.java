@@ -32,4 +32,13 @@ public class TreeTest {
         oneTree.addChild(new Tree(2));
         assertEquals(1, oneTree.numChildren());
     }
+
+    @Test
+    public void sizeOfTreeWithThreeNodesShouldBeThree() {
+        Tree oneTree = new Tree(1);
+        Tree twoTree = new Tree(2);
+        twoTree.addChild(new Tree(1));
+        oneTree.addChild(new Tree(2));
+        assertEquals(3, oneTree.size());
+    }
 }
