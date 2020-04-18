@@ -1,7 +1,9 @@
 package edu.berkeley.aep;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 // Understands how to create a non-binary tree structure with integers as root data
 public class Tree {
@@ -22,15 +24,15 @@ public class Tree {
     }
 
     public int size() {
-        Integer count = 1;
-        return size(count, this);
-    }
-
-    public int size(Integer count, Tree tree) {
-        for (Tree node : tree.children) {
-            return size(count + 1, node);
+        Queue<Tree> queue = new LinkedList<>();
+        queue.add(this);
+        int count = 0;
+        while (!queue.isEmpty()) {
+            Tree tmp = queue.poll();
+            count ++;
+            queue.addAll(tmp.children);
         }
-        return count + 1;
+        return count;
     }
 
     @Override

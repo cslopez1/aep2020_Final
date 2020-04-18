@@ -18,8 +18,8 @@
       <file leaf-file-name="TreeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="424">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,14 +30,14 @@
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,15 +65,14 @@
       <list>
         <option value="$PROJECT_DIR$/test/edu/berkeley/aep/FinalTest.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Final.java" />
-        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java" />
+        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="820" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -150,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree">
+  <component name="RunManager">
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -165,31 +164,6 @@
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TreeTest.aTreeWithOneNodeShouldHaveChildrenOfLength0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="aep2020_Final" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
-      <option name="METHOD_NAME" value="aTreeWithOneNodeShouldHaveChildrenOfLength0" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -239,6 +213,31 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
       <option name="METHOD_NAME" value="addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="aep2020_Final" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
+      <option name="METHOD_NAME" value="sizeOfTreeWithFourNodesShouldBeFour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -337,18 +336,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.aTreeWithOneNodeShouldHaveChildrenOfLength0" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildShouldIncreaseNumberOfChildrenByOne" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildShouldIncreaseNumberOfChildrenByOne" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithFourNodesShouldBeFour" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildShouldIncreaseNumberOfChildrenByOne" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.aTreeWithOneNodeShouldHaveChildrenOfLength0" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithFourNodesShouldBeFour" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.addingAChildShouldIncreaseNumberOfChildrenByOne" />
       </list>
     </recent_temporary>
   </component>
@@ -366,52 +365,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest - 2020.04.18 at 12h 22m 26s.xml">
+    <history-entry file="TreeTest - 2020.04.18 at 14h 06m 03s.xml">
       <configuration name="TreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest - 2020.04.18 at 12h 33m 47s.xml">
+    <history-entry file="TreeTest - 2020.04.18 at 14h 07m 18s.xml">
       <configuration name="TreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_aTreeWithOneNodeShouldHaveChildrenOfLength0 - 2020.04.18 at 12h 21m 45s.xml">
-      <configuration name="TreeTest.aTreeWithOneNodeShouldHaveChildrenOfLength0" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 13h 53m 44s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_addingAChildShouldIncreaseNumberOfChildrenByOne - 2020.04.18 at 12h 25m 09s.xml">
-      <configuration name="TreeTest.addingAChildShouldIncreaseNumberOfChildrenByOne" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 13h 53m 51s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_addingAChildShouldIncreaseNumberOfChildrenByOne - 2020.04.18 at 12h 25m 23s.xml">
-      <configuration name="TreeTest.addingAChildShouldIncreaseNumberOfChildrenByOne" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 13h 58m 13s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne - 2020.04.18 at 12h 32m 39s.xml">
-      <configuration name="TreeTest.addingAChildWithItsOwnChildrenShouldOnlyIncreaseNumberOfChildrenByOne" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 13h 58m 38s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_sizeOfTreeWithThreeNodesShouldBeThree - 2020.04.18 at 12h 39m 41s.xml">
-      <configuration name="TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 14h 01m 03s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_sizeOfTreeWithThreeNodesShouldBeThree - 2020.04.18 at 12h 43m 51s.xml">
-      <configuration name="TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 14h 04m 32s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_sizeOfTreeWithThreeNodesShouldBeThree - 2020.04.18 at 12h 44m 25s.xml">
-      <configuration name="TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 14h 04m 49s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_sizeOfTreeWithThreeNodesShouldBeThree - 2020.04.18 at 12h 47m 06s.xml">
-      <configuration name="TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" configurationId="JUnit" />
+    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 14h 05m 47s.xml">
+      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -420,7 +419,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -436,7 +435,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -447,10 +446,10 @@
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -535,22 +534,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="424">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
