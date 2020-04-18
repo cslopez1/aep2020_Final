@@ -10,4 +10,10 @@ public class TreeTest {
         Tree oneTree2 = new Tree(1);
         assertEquals(oneTree, oneTree2);
     }
+
+    @Test
+    public void aTreeWithOneNodeShouldHaveChildrenOfLength0() {
+        Tree oneTree = new Tree(1);
+        assertEquals(0, oneTree.numChildren());
+    }
 }
