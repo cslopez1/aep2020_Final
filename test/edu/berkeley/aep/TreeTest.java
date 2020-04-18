@@ -16,4 +16,11 @@ public class TreeTest {
         Tree oneTree = new Tree(1);
         assertEquals(0, oneTree.numChildren());
     }
+
+    @Test
+    public void addingAChildShouldIncreaseNumberOfChildrenByOne() {
+        Tree oneTree = new Tree(1);
+        oneTree.addChild(new Tree(2));
+        assertEquals(1, oneTree.numChildren());
+    }
 }

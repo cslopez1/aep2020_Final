@@ -24,6 +24,10 @@ public class Tree {
         return children.size();
     }
 
+    public void addChild(Tree child) {
+        children.add(child);
+    }
+
     public boolean equals(Tree other) {
         try {
             return this.rootData == other.rootData;
