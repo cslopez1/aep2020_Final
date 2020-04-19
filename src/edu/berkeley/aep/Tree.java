@@ -10,6 +10,8 @@ public class Tree {
     private final Integer rootData;
     private List<Tree> children;
 
+    private enum Type { COUNT, SUM }
+
     public Tree(Integer data) {
         this.rootData = data;
         this.children = new ArrayList<>();
@@ -24,13 +26,26 @@ public class Tree {
     }
 
     public int size() {
+        return size(Type.COUNT);
+    }
+
+    public int sumTree() {
+        return size(Type.SUM);
+    }
+
+    public int size(Type type) {
         Queue<Tree> queue = new LinkedList<>();
         queue.add(this);
         int count = 0;
         while (!queue.isEmpty()) {
-            Tree tmp = queue.poll();
-            count ++;
-            queue.addAll(tmp.children);
+            Tree temp = queue.poll();
+            if (type == Type.COUNT) {
+                count++;
+            }
+            else {
+                count += temp.rootData;
+            }
+            queue.addAll(temp.children);
         }
         return count;
     }
