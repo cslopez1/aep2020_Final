@@ -4,6 +4,24 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TreeTest {
+
+    private Tree nodeOne = new Tree(1);
+    private Tree nodeTwo = new Tree(2);
+    private Tree nodeThree = new Tree(3);
+    private Tree nodeFour = new Tree(4);
+    private Tree nodeFive = new Tree(5);
+    private Tree nodeSix = new Tree(6);
+    private Tree nodeSeven = new Tree(7);
+
+    public TreeTest() {
+        nodeOne.addChild(nodeTwo);
+        nodeOne.addChild(nodeThree);
+        nodeTwo.addChild(nodeFour);
+        nodeTwo.addChild(nodeFive);
+        nodeTwo.addChild(nodeSix);
+        nodeThree.addChild(nodeSeven);
+    }
+
     @Test
     public void aTreeWithOneNodeWithDataOneShouldEqualAnotherTreeWithOneNodeWithDataOne() {
         Tree oneTree = new Tree(1);
@@ -51,4 +69,15 @@ public class TreeTest {
         oneTree.addChild(new Tree(0));
         assertEquals(4, oneTree.size());
     }
+
+    // From here begin the tests using the same standardized tree, initiated by TreeTest.
+    // TestTree has two children from the root node, with one child having three of its own children, and the other
+    // child having one. There are a total of seven nodes.
+
+    @Test
+    public void sizeOfTestTreeIsSeven() {
+        // to ensure it works for nodes with >2 children
+        assertEquals(7, nodeOne.size());
+    }
+
 }
