@@ -5,12 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-// Understands how to create a non-binary tree structure with integers as root data
+// Understands how to create a non-binary tree structure with integers as root data, where each node is its own tree.
 public class Tree {
     private final Integer rootData;
     private List<Tree> children;
-
-    private enum Type { COUNT, SUM }
 
     public Tree(Integer data) {
         this.rootData = data;
@@ -26,28 +24,27 @@ public class Tree {
     }
 
     public int size() {
-        return size(Type.COUNT);
+        return size((total, cost) -> total + 1);
     }
 
     public int sumTree() {
-        return size(Type.SUM);
+        return size((total, cost) -> total + cost);
     }
 
-    public int size(Type type) {
+    public int size(Strategy strategy) {
         Queue<Tree> queue = new LinkedList<>();
         queue.add(this);
         int count = 0;
         while (!queue.isEmpty()) {
             Tree temp = queue.poll();
-            if (type == Type.COUNT) {
-                count++;
-            }
-            else {
-                count += temp.rootData;
-            }
+            count = strategy.apply(count, temp.rootData);
             queue.addAll(temp.children);
         }
         return count;
+    }
+
+    public boolean contains(Tree nodeTwo) {
+        return true;
     }
 
     @Override

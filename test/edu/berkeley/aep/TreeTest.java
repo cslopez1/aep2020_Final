@@ -70,7 +70,7 @@ public class TreeTest {
         assertEquals(4, oneTree.size());
     }
 
-    // From here begins the tests using the same standardized tree, initiated by TreeTest.
+    // From here begins the tests using the same standardized tree, initialized by TreeTest.
     // TestTree has two children from the root node, with one child having three of its own children, and the other
     // child having one. There are a total of seven nodes.
 
@@ -83,5 +83,10 @@ public class TreeTest {
     @Test
     public void sumOfTestTreeIs28() {
         assertEquals(28, nodeOne.sumTree());
+    }
+
+    @Test
+    public void treeContainsNodeTwoShouldBeTrue() {
+        assertTrue(nodeOne.contains(nodeTwo));
     }
 }
