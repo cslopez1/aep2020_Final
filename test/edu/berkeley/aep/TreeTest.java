@@ -94,4 +94,10 @@ public class TreeTest {
     public void treeContainsNodeSevenShouldBeTrue() {
         assertTrue(nodeOne.contains(nodeSeven));
     }
+
+    @Test
+    public void treeContainsNodeEightShouldBeFalse() {
+        Tree nodeEight = new Tree(8);
+        assertFalse(nodeOne.contains(nodeEight));
+    }
 }

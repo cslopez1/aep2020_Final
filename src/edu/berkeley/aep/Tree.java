@@ -9,6 +9,7 @@ import java.util.Queue;
 public class Tree {
     private final Integer rootData;
     private List<Tree> children;
+    public final static Tree UNREACHABLE = new Tree(Integer.MAX_VALUE);
 
     public Tree(Integer data) {
         this.rootData = data;
@@ -24,36 +25,31 @@ public class Tree {
     }
 
     public int size() {
-        return size((total, cost) -> total + 1);
+        return size((total, cost) -> total + 1, UNREACHABLE);
     }
 
     public int sumTree() {
-        return size((total, cost) -> total + cost);
+        return size((total, cost) -> total + cost, UNREACHABLE);
     }
 
-    public int size(Strategy strategy) {
+    public boolean contains(Tree other) {
+        return size((total, cost) -> total + 1, other) == UNREACHABLE.rootData;
+    }
+
+    public int size(Strategy strategy, Tree other) {
         Queue<Tree> queue = new LinkedList<>();
         queue.add(this);
         int count = 0;
         while (!queue.isEmpty()) {
             Tree temp = queue.poll();
+            if (temp.equals(other)) {
+                count = UNREACHABLE.rootData;
+                break; // if the node is in the tree, it returns count = UNREACHABLE.rootData
+            }
             count = strategy.apply(count, temp.rootData);
             queue.addAll(temp.children);
         }
         return count;
-    }
-
-    public boolean contains(Tree other) {
-        Queue<Tree> queue = new LinkedList<>();
-        queue.add(this);
-        while (!queue.isEmpty()) {
-            Tree temp = queue.poll();
-            if (other.rootData.equals(temp.rootData)) {
-                return true;
-            }
-            queue.addAll(temp.children);
-        }
-        return false;
     }
 
     @Override
