@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa1dc006-0fa1-43ca-bb0f-61bf72ac95ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Strategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aep2020_Final/edu/berkeley/aep/Tree.class" afterPath="$PROJECT_DIR$/out/production/aep2020_Final/edu/berkeley/aep/Tree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java" />
     </list>
@@ -18,31 +15,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TreeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2694#2695#0" expanded="true" />
                 <element signature="e#2747#2748#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#2867#2868#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="347">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +48,8 @@
       <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -171,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest">
+  <component name="RunManager" selected="JUnit.TreeTest.treeContainsNodeSevenShouldBeTrue">
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -247,31 +244,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="aep2020_Final" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
-      <option name="METHOD_NAME" value="sizeOfTreeWithThreeNodesShouldBeThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="TreeTest.sumOfTestTreeIs28" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -285,6 +257,31 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
       <option name="METHOD_NAME" value="sumOfTestTreeIs28" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TreeTest.treeContainsNodeSevenShouldBeTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="aep2020_Final" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.TreeTest" />
+      <option name="METHOD_NAME" value="treeContainsNodeSevenShouldBeTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -358,18 +355,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithFourNodesShouldBeFour" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTestTreeIsSeven" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.sumOfTestTreeIs28" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithFourNodesShouldBeFour" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTestTreeIsSeven" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.sumOfTestTreeIs28" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.treeContainsNodeSevenShouldBeTrue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.sumOfTestTreeIs28" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTestTreeIsSeven" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithFourNodesShouldBeFour" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithThreeNodesShouldBeThree" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest.treeContainsNodeSevenShouldBeTrue" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.sumOfTestTreeIs28" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTestTreeIsSeven" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TreeTest.sizeOfTreeWithFourNodesShouldBeFour" />
       </list>
     </recent_temporary>
   </component>
@@ -387,17 +384,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest - 2020.04.20 at 14h 52m 03s.xml">
+    <history-entry file="TreeTest - 2020.04.21 at 21h 51m 18s.xml">
       <configuration name="TreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest - 2020.04.20 at 14h 54m 26s.xml">
+    <history-entry file="TreeTest - 2020.04.21 at 21h 54m 03s.xml">
       <configuration name="TreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest - 2020.04.20 at 14h 55m 32s.xml">
-      <configuration name="TreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 13h 58m 38s.xml">
-      <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TreeTest_sizeOfTreeWithFourNodesShouldBeFour - 2020.04.18 at 14h 01m 03s.xml">
       <configuration name="TreeTest.sizeOfTreeWithFourNodesShouldBeFour" configurationId="JUnit" />
@@ -417,6 +408,12 @@
     <history-entry file="TreeTest_sumOfTestTreeIs28 - 2020.04.18 at 19h 34m 24s.xml">
       <configuration name="TreeTest.sumOfTestTreeIs28" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest_treeContainsNodeSevenShouldBeTrue - 2020.04.21 at 21h 54m 39s.xml">
+      <configuration name="TreeTest.treeContainsNodeSevenShouldBeTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeContainsNodeSevenShouldBeTrue - 2020.04.21 at 21h 59m 25s.xml">
+      <configuration name="TreeTest.treeContainsNodeSevenShouldBeTrue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -430,7 +427,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -470,6 +467,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -490,8 +489,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,6 +501,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -516,8 +515,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -530,6 +527,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,8 +541,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,6 +553,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,8 +567,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,8 +579,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,6 +598,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -615,6 +612,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,6 +633,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2694#2695#0" expanded="true" />
             <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,36 +669,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Strategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="347">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2694#2695#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
           </folding>
         </state>
       </provider>

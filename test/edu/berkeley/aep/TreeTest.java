@@ -89,4 +89,9 @@ public class TreeTest {
     public void treeContainsNodeTwoShouldBeTrue() {
         assertTrue(nodeOne.contains(nodeTwo));
     }
+
+    @Test
+    public void treeContainsNodeSevenShouldBeTrue() {
+        assertTrue(nodeOne.contains(nodeSeven));
+    }
 }

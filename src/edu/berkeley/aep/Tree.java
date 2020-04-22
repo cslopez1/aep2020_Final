@@ -43,8 +43,17 @@ public class Tree {
         return count;
     }
 
-    public boolean contains(Tree nodeTwo) {
-        return true;
+    public boolean contains(Tree other) {
+        Queue<Tree> queue = new LinkedList<>();
+        queue.add(this);
+        while (!queue.isEmpty()) {
+            Tree temp = queue.poll();
+            if (other.rootData.equals(temp.rootData)) {
+                return true;
+            }
+            queue.addAll(temp.children);
+        }
+        return false;
     }
 
     @Override
